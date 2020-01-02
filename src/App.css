@@ -1,6 +1,70 @@
 .App {
   text-align: center;
 }
+.Card {
+  margin: 40vmin auto 0 auto;
+  padding: 20px;
+  border-radius: 4.7%;
+  box-shadow: -4px -4px 4px #333, 4px 4px 4px #666;
+  width: 200px;
+  background: linear-gradient(#fff, #fcfcfc);
+}
+.Site-title{
+  font-size: 150px;
+  color: #ddd2;
+  /* width: 90%; */
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  margin: 0;
+  padding: 0;
+  z-index: -100;
+}
+@media only screen and (max-width: 900px){
+  .Site-title {
+    font-size: 100px;
+  }
+}
+@media only screen and (max-width: 765px){
+  .Site-title {
+    font-size: 50px;
+  }
+  .Card {
+    margin: 50vmin auto 0;
+  }
+}
+
+.Card-button{
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow:  #fdfdfd -5px -5px 5px, #dfdfdf 5px 5px 5px;
+  cursor: pointer;
+  background: repeating-linear-gradient(45deg, red, red, #fff, red, red 3px);
+  padding: 5px;
+  color: #000;
+}
+html{
+  background: linear-gradient(45deg, #001d3a, #000);
+  height: 100%;
+}
+
+.Fade-out {
+  animation: fade-out 1s linear;
+}
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
