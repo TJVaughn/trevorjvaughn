@@ -34,12 +34,14 @@
     z-index: 100;
     cursor: pointer;
     background-color: rgb(192, 0, 0);
+    text-align: center;
 
 }
 .Contact-card {
     color: #fff;
     text-decoration: none;
     /* margin: 20px auto; */
+    padding: 5px;
     text-align: center;
 }
 
@@ -54,6 +56,6 @@
         grid-template-columns: repeat(1, 100%);
     }
     .Contact-card {
-        margin: 20px;
+        /* margin: 20px; */
     }
 }
