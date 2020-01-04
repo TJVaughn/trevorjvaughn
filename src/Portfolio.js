@@ -9,7 +9,7 @@ const portfolioItemsArray = [
     {
         title: "WhetherApp",
         desc: "Find out whether you want to go outside or not!",
-        link: 'https://whetherapp.co',
+        link: 'https://www.whetherapp.co',
         img: weatherAppImg,
         type: 'Portfolio App'
     },
